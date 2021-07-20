@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyfixfmt
+Version: 0.9.0
+Summary: Run several python fixers over a python file.
+
+It will respect the settings in your `pyproject.toml`.
+
+Provides both a file-based and string-based API, as well as able
+to be run from the command line.
+
+Home-page: https://github.com/untitled-ai/pyfixfmt
+Author: TJ DeVries
+Author-email: devries.timothyj@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: autoflake (>=1.3.1,<2.0.0)
+Requires-Dist: black (>=19.10b0,<20.0)
+Requires-Dist: isort (>=4.3.21,<5.0.0)
+Project-URL: Repository, TODO
+Description-Content-Type: text/markdown
+
+# PyFixFmt
+
+Python Format Fixer.
+
+
+### Instructions
+
+To run:
+
+```
+$ # Recommended way, since it should work from wherever it's installed
+$ python -m pyfixfmt --file-glob <your file glob here> --verbose
+
+$ # Or, since I'm a nice guy
+$ python pyfixfmt --file-glob <your file glob here> --verbose
+
+```
+
