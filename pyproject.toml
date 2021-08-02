@@ -1,15 +1,9 @@
 [tool.poetry]
 name = "pyfixfmt"
-version = "0.9.0"
-description = """Run several python fixers over a python file.
+version = "0.9.1"
+description = "Run several python fixers over a python file, to provide simple, deterministic code formatting."
 
-It will respect the settings in your `pyproject.toml`.
-
-Provides both a file-based and string-based API, as well as able
-to be run from the command line.
-"""
-
-license = "talk to josh"
+license = "MIT"
 repository = "https://github.com/untitled-ai/pyfixfmt"
 homepage = "https://github.com/untitled-ai/pyfixfmt"
 
