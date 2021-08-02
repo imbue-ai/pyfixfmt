@@ -9,13 +9,17 @@ Meant to make formatting of python code as deterministic as sanely possible.
 
 ### Instructions
 
+To install:
+
+`pip install pyfixfmt`
+
 To run:
 
 ```
-$ # Recommended way, since it should work from wherever it's installed
+$ # Recommended way, since it should work from wherever
 $ python -m pyfixfmt --file-glob <your file glob here> --verbose
 
-$ # Or, since I'm a nice guy
+$ # Or to run without installing
 $ python pyfixfmt --file-glob <your file glob here> --verbose
 
 ```
