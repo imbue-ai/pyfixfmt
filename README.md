@@ -2,7 +2,9 @@
 
 A simple python formatter.
 
-Just removes unused imports, sorts all imports, and then runs [black](https://black.readthedocs.io/en/stable/). Meant to make formatting of python code as deterministic as sanely possible.
+Just removes unused imports (with [autoflake](https://github.com/myint/autoflake)), sorts imports (with [isort](https://github.com/PyCQA/isort)), and then formats the code (with [black](https://black.readthedocs.io/en/stable/)).
+
+Meant to make formatting of python code as deterministic as sanely possible.
 
 
 ### Instructions
