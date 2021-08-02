@@ -1,6 +1,8 @@
 # PyFixFmt
 
-Python Format Fixer.
+A simple python formatter.
+
+Just removes unused imports, sorts all imports, and then runs [black](https://black.readthedocs.io/en/stable/). Meant to make formatting of python code as deterministic as sanely possible.
 
 
 ### Instructions
