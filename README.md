@@ -15,11 +15,14 @@ To install:
 
 To run:
 
-```
-$ # Recommended way, since it should work from wherever
-$ python -m pyfixfmt --file-glob <your file glob here> --verbose
 
-$ # Or to run without installing
-$ python pyfixfmt --file-glob <your file glob here> --verbose
+Recommended way, since it should work from wherever
 
-```
+`python -m pyfixfmt --file-glob <your file glob here> --verbose`
+
+Or, to run without installing
+
+`python pyfixfmt --file-glob <your file glob here> --verbose`
+
+
+file-glob can be either a single file name or a normal unix glob.
